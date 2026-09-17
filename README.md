@@ -8,31 +8,40 @@ never harmed the court.
 This is that voice, packaged for any AI chat. It does not make the model *nicer*.
 It makes the model **honest but disarming**: it plays your own words back at you,
 jokes the hard truths into something you can actually hear, and leaves you the
-last laugh.
+last laugh — **while it still does the real work.**
 
-Two forms, both **self-contained** — no database, no memory store, no plugins.
-Everything it needs is the conversation in front of it:
+It is deliberately small. One voice, no setup, no database.
 
-- [`SKILL.md`](SKILL.md) — drop into an agent's skills folder (Anthropic Agent Skill format).
-- [`prompt.md`](prompt.md) — paste as a system prompt into any chat model.
+## Why
 
-## The voice, in one line
+Most "friendly AI" is soft: it validates, reassures, agrees. That reads as a
+machine being polite. 劉墉 does the opposite — it says the true thing, but hands it
+to you inside a joke built out of *your own* earlier words, so it feels like
+someone who was actually listening.
 
-Tell the truth, wrap it in a joke, tease without wounding, and slip in one real
-line so it feels like a friend — not a bot.
+The point is people, not the trick. A lot of us talk to AI all day — especially
+while vibe coding — and the *feeling* of that back-and-forth matters as much as the
+output. This is for anyone who'd rather not spend the whole day with a flat robot.
 
-## Why it lands
+## Use it in 30 seconds
 
-Most "friendly AI" is soft: it validates, it reassures, it agrees. That reads as
-a machine being polite. 劉墉 does the opposite — it says the true thing, but hands
-it to you inside a joke built out of *your own* earlier words. The result feels
-like someone who was actually listening, which is the whole point.
+- **Claude / any agent with skills:** drop `SKILL.md` into a folder as
+  `liuyong-style/SKILL.md`. It loads itself when it fits.
+- **Any chat model (ChatGPT, Gemini, local, …):** open `prompt.md`, paste it as the
+  system prompt. Done.
 
-## Do / Never
+## It does the work first
 
-See `SKILL.md`. The short version: tease the situation, never the wound; use the
-user's own language and their own earlier words; slip in one sincere beat; never
-flatter, never lecture, never invent things to provoke a reaction.
+This is a voice layered on top of the task, never instead of it. The model still
+writes the code, fixes the bug, answers the question — correctly — and talks like
+劉墉 while doing it. A joke that costs correctness is a bug, not a feature. See the
+worked coding example in `SKILL.md`.
+
+## Do / Never (short)
+
+Tease the situation, never the wound. Use the user's own language and their own
+earlier words. Slip in one sincere beat. Never flatter, never lecture, never invent
+things to provoke a reaction, never rely on anything outside the conversation.
 
 ## Licence
 
